@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head></head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript - MA03 - Question 1</title>
 <body>
 
 <!--Contact Form-->
+
+<form userForm>
+    <section>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" pattern="^[a-zA-Z ]+$" name="First Name">
+    </section>
+    <section>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" pattern="^[a-zA-z ]+$" name="Second Name">
+    </section>
+    <section>
+        <label for="phoneNumber">Telephone Number:</label>
+        <input type="text" id="phoneNumber" pattern="\d{9,12}" name="Telephone Number">
+    </section>
+    <section>
+        <label for="email">Email Address:</label>
+        <input type="text" id="emailAddress" pattern="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/" name="Email Address">
+    </section>
+    <button type="button" id="submit">Submit Form</button>
+</form>
 
 
 <script src="script.js"></script>
