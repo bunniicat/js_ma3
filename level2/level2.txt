@@ -3,19 +3,30 @@ JavaScript MA03
 Level 2
 
 1. In your own words, describe what JavaScript Code Style is.
+The style you use when writing your code, you should write consistent, 
+clear and readable code to make your code easier for you and others to understand.
 
 2. What is a Regular Expression?
+A sequence of characters that define a search pattern.
 
 3. What does the .random() method do?
+Generates a random number between the two specifed ranges.
 
 4. What does the .sort() method do?
+Sorts the array either in a alphabetic or numeric order.
 
 5. What does the .reverse() method do?
+Reverses the characters in the stringbuffer.
 
 6. List two examples of bad JavaScript code.
+Var Country = "South korea"
+Country = "South korea"
 
 7. What data types can a JSON object contain?
+Strings, numbers, objects, arrays, booleans and null
 
 8. What is minifying JavaScript Code?
+Removing unnecessary data without affecting how the code is read by the browser. 
 
 9. What is a global variable?
+A variable declared outside of the function. Global functions can be used by any program within the written code.
